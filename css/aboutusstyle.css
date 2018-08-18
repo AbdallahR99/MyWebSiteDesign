@@ -1,0 +1,103 @@
+body {
+    background: url(../imgs/background.jpg);
+    background-size: cover;
+}
+
+.login {
+    height: 650px;
+    width: 450px;
+    background: rgb(3,3,3,0.4);
+    box-sizing: border-box;
+    color: #fff;
+    margin: 75px auto;
+    margin-top: 80px;
+    position: relative;
+    padding: 50px 20px
+}
+
+.login h1{
+    text-align: center;
+}
+
+.login .iam br{
+    margin-top: 50px;
+}
+
+.login .iam .left {
+    color: #0abde3;
+    font-size: 20px;
+    direction: ltr;
+}
+
+.login .iam .right {
+    color: #fff;
+    font-size: 18px;
+    float: right;
+    margin-top: 3px;
+}
+
+.login .iam .info {
+    margin-top: 75px;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: -75px;
+    right: calc(50% - 75px)
+}
+
+input.submit {
+    margin-top: 40px;
+    width: 200px;
+    background: #82ccdd;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input.submit:hover {
+    cursor: pointer;
+    background: #60a3bc;
+    color: #fff;
+}
+
+*::placeholder {
+    color: #dfdfdf
+}
+
+.inputt {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #82ccdd;
+    color: #fff;
+}
+
+.inputt:focus {
+    border-bottom: 2px solid #93ddff;
+}
+
+.bg {
+    height: 100px;
+    background: none;
+    overflow: hidden;
+}
+
+.w {
+    margin-left: calc(50% - 100px);
+    margin-bottom: 0px
+}
+
+.w .spr {
+    color: #EA2027;
+}
+
+.w .spl {
+    color: #00d2d3;
+    margin-left: 100px
+}

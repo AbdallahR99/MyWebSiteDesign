@@ -1,0 +1,87 @@
+body {
+    background: url(../imgs/background.jpg);
+    background-size: cover;
+}
+
+.login {
+    height: 650px;
+    width: 450px;
+    background: rgb(3,3,3,0.4);
+    box-sizing: border-box;
+    color: #fff;
+    margin: 75px auto;
+    margin-top: 80px;
+    position: relative;
+    padding: 50px 20px
+}
+
+.login h1{
+    text-align: center;
+}
+
+.login form *:not(.cb){
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+}
+
+.login form a {
+    color: #0abde3;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: -75px;
+    right: calc(50% - 75px)
+}
+
+input.submit {
+    margin-top: 40px;
+    width: 200px;
+    background: #82ccdd;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+input.submit:hover {
+    cursor: pointer;
+    background: #60a3bc;
+    color: #fff;
+}
+
+*::placeholder {
+    color: #dfdfdf;
+}
+
+.inputt {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #82ccdd;
+    color: #fff;
+}
+
+.inputt:focus {
+    border-bottom: 2px solid #ccefff;
+}
+
+.bg {
+    height: 100px;
+    background: none;
+    overflow: hidden;
+}
+
+span {
+    margin: 5px;
+    margin-top: 
+}
+
+#cc {
+    margin-top: 3px;
+    float: left;
+}

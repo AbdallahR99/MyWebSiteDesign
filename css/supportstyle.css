@@ -1,0 +1,45 @@
+fieldset {
+    width: 50%;
+    margin: 10px auto;
+    border: 0.5px solid #ccc;
+}
+
+fieldset legend {
+    color: #696D6E;
+    font-weight: bold;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+fieldset label, fieldset input, fieldset textarea {
+    display: block;
+    width: 80%;
+    margin: 0 auto
+}
+
+fieldset label {
+    margin-top: 40px;
+}
+
+fieldset textarea {
+    width: 80%;
+    height: 75px;
+    resize: none;
+}
+
+fieldset input.submit {
+    margin-top: 40px;
+    width: 200px;
+    background: none;
+    padding: 5px;
+    color: #34495e;
+    border: 1px solid #34495e
+}
+
+fieldset input.submit:hover {
+    cursor: pointer;
+    background: #34495e;
+    color: #fff;
+}
